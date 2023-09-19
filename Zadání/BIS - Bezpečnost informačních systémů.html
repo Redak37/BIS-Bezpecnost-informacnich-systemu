@@ -1,0 +1,556 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0072)https://www.fit.vutbr.cz/study/courses/BIS/private/projekty/project.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+    <meta name="robots" content="all, follow">
+    
+    <meta http-equiv="keywords" content="BIS, Bezpečnost informačních systémů">
+    <link rel="stylesheet" type="text/css" href="./BIS - Bezpečnost informačních systémů_files/page_content.css">
+    <link rel="stylesheet" type="text/css" href="./BIS - Bezpečnost informačních systémů_files/page_layout.css">
+    <title>BIS - Bezpečnost informačních systémů</title>
+<style type="text/css">@font-face {
+    font-family: 'OpenSansPP';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/u-WUoqrET9fUeobQW7jkRYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'OpenSansPP';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/k3k702ZOKiLJc3WVjuplzIjoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'OpenSansPP';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/k3k702ZOKiLJc3WVjuplzBampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+@font-face {
+    font-family: 'OpenSansPP';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+#pp-2box, #pp-2box-small {
+    position: fixed !important;
+    display: block;
+    right: 23px;
+    bottom: 23px;
+    z-index: 2147483647;
+    width: 450px;
+    height: auto !important;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 6px 40px rgba(0, 0, 0, 0.3);
+    background-color: #FFF;
+}
+
+#pp-2box>.pp-icon, #pp-2box-small>.pp-icon {
+    position: absolute !important;
+    display: block !important;
+    top: 14px;
+    left: -9px;
+    width: 64px;
+    height: 64px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent !important;
+    background-image: url(data:image/png;base64,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);
+    background-repeat: no-repeat;
+}
+
+#pp-2box>.close, #pp-2box-small>.close  {
+    position: absolute !important;
+    display: block !important;
+    top: 10px;
+    right: 10px;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASBAMAAACk4JNkAAAAAXNSR0IB2cksfwAAAC1QTFRFAAAA7+/37fH37vH47vH37+/07vL37vH27vD3rLjN1Nrm7fH3qLTK7vL27vH3sn2xfQAAAA90Uk5TAECfz/8wv+/A//+g/9Dw5R3l7wAAAHtJREFUeJxjYGBgVHYxEmAAAtYUFxcXtwAgK9wFBEqBQiVglnsAA4cLBCQwiLh4LnHxmuLiyLDFxeuUy5olLt4MV1xc1qw65eLizABU4nVmCZBEYsFkfZF0IEyBmdzAwPoEzPADOiEOzHoKclULkOEBchUD416X20CXAgAA3TJgepJfkQAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    background-color: transparent !important;
+    cursor: pointer;
+}
+
+#pp-2box>.pp-headline, #pp-2box-small>.pp-headline {
+    display: block !important;
+    width: auto !important;
+    height: auto !important;
+    line-height: 45px;
+    padding: 11px 18px 0 69px;
+    margin: 0;
+    border: none;
+    font-family: 'OpenSansPP',  sans-serif !important;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: none;
+    text-align: left;
+    color: #00b9ff;
+    background: none !important;
+}
+
+#pp-2box>.pp-content {
+    display: block !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    line-height: 22px;
+    padding: 0 10px 17px 69px;
+    margin: -7px 0 0 0;
+    border: none;
+    font-family: 'OpenSansPP', sans-serif !important;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    text-align: left;
+    color: #2e3337;
+    background: none !important;
+}
+
+#pp-2box>.pp-content>b {
+    display: inline !important;
+    width: auto !important;
+    height: auto !important;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: 'OpenSansPP', sans-serif !important;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: none;
+    text-align: left;
+    color: #2e3337;
+    background: none !important;
+}
+
+#pp-2box>.pp-footer {
+    display: table !important;
+    width: 100%;
+    height: auto !important;
+    padding: 23px 0;
+    margin: 0;
+    border-top: 1px solid #dbdbdb;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #f4f4f4 !important;
+}
+
+#pp-2box>.pp-footer>.pp-left-part {
+    display: block !important;
+    box-sizing: border-box !important;
+    float: left;
+    width: 50%;
+    height: auto !important;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    border: none;
+    text-align: center;
+    background: none !important;
+}
+
+#pp-2box>.pp-footer>.pp-left-part>.pp-big-text {
+    display: block !important;
+    width: auto !important;
+    height: auto !important;
+    line-height: 35px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: 'OpenSansPP', sans-serif !important;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: none;
+    text-align: center;
+    color: #2e3337;
+    background: none !important;
+}
+
+#pp-2box>.pp-footer>.pp-left-part>.pp-big-text>b {
+    display: inline !important;
+    width: auto !important;
+    height: auto !important;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: 'OpenSansPP', sans-serif !important;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: none;
+    text-align: right;
+    color: #2e3337;
+    background: none !important;
+}
+
+#pp-2box>.pp-footer>.pp-left-part>.pp-small-text {
+    display: block !important;
+    width: auto !important;
+    height: auto !important;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: 'OpenSansPP', sans-serif !important;
+    font-size: 13px;
+    color: #2e3337;
+    text-transform: none;
+    text-align: center;
+    background: none !important;
+}
+
+#pp-2box>.pp-footer>.pp-right-part {
+    display: block !important;
+    box-sizing: border-box !important;
+    float: right;
+    width: 50%;
+    height: auto !important;
+    padding-right: 15px;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    border: none;
+    text-transform: none;
+    background: none !important;
+}
+
+#pp-2box>.pp-footer>.pp-right-part>.btn {
+    display: block !important;
+    width: 100%;
+    height: auto !important;
+    line-height: 20px !important;
+    padding: 13px 0;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    background-color: #7fb93c !important;
+    background-image: linear-gradient(-45deg, rgba(136, 196, 66, 0.84) 0%, rgba(127, 185, 60, 0.84) 100%) !important;
+    color: #FFF;
+    font-family: 'OpenSansPP', sans-serif !important;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+#pp-2box>.pp-footer>.pp-right-part>.btn:hover {
+    background: #2badce !important;
+}
+
+/* cerveny content popup */
+#pp-2box.pp-box-red>.pp-headline {
+    color: #f00;
+}
+
+#pp-2box.pp-box-red>.pp-footer>.pp-right-part>.btn {
+    background-image: none !important;
+    background-color: #f00 !important;
+}
+
+/* maly box */
+#pp-2box-small {
+    width: 325px;
+}
+
+#pp-2box-small>.pp-icon {
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left: -10px;
+    background-size: cover;
+}
+
+#pp-2box-small>.pp-headline {
+    font-size: 24px;
+    padding: 7px 0 2px 51px;
+    line-height: normal;
+}
+
+#pp-2box-small>.pp-content {
+    font-family: 'OpenSansPP', sans-serif !important;
+    font-size: 12px;
+    text-transform: none;
+    text-align: left;
+    color: #2e3337;
+    margin-left: 51px !important;
+    padding: 0 5px 12px 22px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IB2cksfwAAAN5QTFRFAAAAgLdAgLs9gLs+gbs9gbw+gL9Af7o8gLs9gbw+gbw9grw+gr0+gLo8gr0/gr0+g74/grw/g74/hb9Ag75A2OvDr9WEh79Agbw8gr1A0ee3////4/HUg78/hMA/gLw9hL5DyOKq6vTejMNNhL8/hcA/udqU4/DTh79Gv92c8PfnkcZUhcBAhcA/2uvG3+7Oh8BGtdiN9PnulcdahcFAgrw/6fTd/v79+Pv0mstihsFAhMBAgbw++/34oM1sh8FAiMFH3e3Kp9J3hsFBgb1AhcE/g74/hsBAg71Ah8FCLen9IgAAAEp0Uk5TACCPz//PIJD/////j9D//8///5D///8gkP///////9D//////8/////////////////////Q///////QkP//kP////+Q/9DQkJAte9JXAAAAwElEQVR4nE2P2RrBMBBGB0EJQYoiWlvsqpbaat95/xcyERf+q8yc72RmADChcISQaDgGv8SJkUhSTErXacMghCYoZZnsH89Rxjg30VdcdVi+UOTcgtLPZ+WKqNqOCTX061izhmi2pGwD8k63x1hfDIaOM3IB/bHwJlMxm0vpuj4sKO15Yrlabxw5coMt7NCfeGJ/+HL/CDE1/3S+KD/wrxbALcNxoy+/B0e16oPbtubBUx/z0tzXXMUyt/j/21LvD8APGFI1VKajAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+}
+
+.pp-search {
+    display: block;
+    margin: 2px 0 4px 0;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: 700;
+    text-decoration: none;
+    color: #f67b10;
+    line-height: 19px;
+    font-size: 12px;
+}
+
+.pp-search:active,
+.pp-search:hover,
+.pp-search:focus,
+.pp-search:visited,
+.pp-search:link {
+    text-decoration: none !important;
+    color: #f67b10 !important;
+}
+
+.pp-search-zbozi {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.pp-search-heureka {
+    font-size: 13px;
+    margin: 5% 0 0;
+}
+
+.product-detail__shop-offers-button .button--blue {
+    width: 100%;
+}
+
+.pp-search-pricemania.button--blue {
+    width: 100%;
+    background: #7fb93c;
+    margin-top: 10px;
+}
+
+.pp-search-pricemania.button--blue:hover {
+    background: #679b2a
+}
+
+.pp-search>span {
+    padding: 3px 10px;
+    border-radius: 2px;
+    margin-right: 5px;
+    background: #f67b10;
+    color: #ffffff;
+}
+
+.pp-search.pp-search-heureka.pp-search-najnakup {
+    margin-top: 10px;
+    min-height: auto;
+}
+
+.pp-search.pp-search-heureka>span {
+    border: 2px solid #679b2a;
+    background: #7fb93c;
+    border-radius: 4px;
+    width: 134px;
+    box-sizing: border-box;
+    height: 35px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 35px;
+    padding: 0;
+    margin-top: 5%;
+}
+
+.scope-heureka div.product div.wherebuy .price .pp-search.pp-search-heureka>span {
+    font-size: 13px;
+    color: #fff;
+}
+
+.pp-search.pp-search-heureka:hover>span {
+    background: #679b2a;
+}
+
+.pp-search.pp-search-zbozi>span {
+    border: 2px solid #679b2a;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #679b2a;
+    width: 100%;
+    box-sizing: border-box;
+    height: 44px;
+    line-height: 44px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pp-search.pp-search-zbozi:hover>span {
+    background-color: #679b2a;
+    color: #fff;
+}
+
+.pp-search>span>span, .pp-search-pricemania.button--blue>span>span {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+    background-size: cover;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gEGEiEfkWYJTQAAALpJREFUOMvN0jFKQ0EUheHvPFMq2LsFCwVLwUJiYWPtAt4GxB24GSs3oEVcgJ0gKQWJBFJrI1wbHwQRkXmNfzdw/8PcORO/UFWbOMIUh5jgOcnZMJNvwgYOcIJjbOEed5gleauqxyS7gzP5EvdwiX084BbnSV5/uNjH+iFV1eMK15j5O/MkT6mqF+xo4yJVVdp5HxugM5KWgNV6E12DfIqbIWT0Ci2PuML28An/RwvLEf6yQ49Fg7xA/wkw/D45daR6WgAAAABJRU5ErkJggg==')
+}
+
+.pp-search.pp-search-heureka>span>span {
+    padding: 8px;
+    margin-right: 6px;
+}
+
+.pp-search-zbozi>span>span {
+    margin-right: 6px;
+    padding: 8px;
+    display: flex;
+    margin-top: -1px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IB2cksfwAAAHhQTFRFAAAAgL9Afrg9f7g8gLk8gLk8f7g9VapVfbk8fro7gLk8f7k8f7k7f7o7gLMzgLk8gLo6gLk9f7o8gLo8frg8erg9frg9f7k8gLk9fLs+gLk8f7k8frk9gLk8gbo/hbxF2erF9/v0h71HvNqZ2erGgrtBfrk8f7k8yd54/gAAACh0Uk5TAAxLkMzQsQM3fcDNjkoK1DCk1aJdGWXoUCnk/3H2//////////9N5WnfXz8AAABbSURBVHicY2CAAEYmZhZWNiiHnYOTi5uHl4+BH8wVEBQSFhEFM1lBhJg4swQCSDIwSEmjABkGVL60LLqANH4BOXk0AQVFJVQBZRVVAmZgFxBH5YszqKkj89XVAB82FtoI5WUTAAAAAElFTkSuQmCC');
+}
+
+.pp-search-zbozi:hover>span>span {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gEGEiEfkWYJTQAAALpJREFUOMvN0jFKQ0EUheHvPFMq2LsFCwVLwUJiYWPtAt4GxB24GSs3oEVcgJ0gKQWJBFJrI1wbHwQRkXmNfzdw/8PcORO/UFWbOMIUh5jgOcnZMJNvwgYOcIJjbOEed5gleauqxyS7gzP5EvdwiX084BbnSV5/uNjH+iFV1eMK15j5O/MkT6mqF+xo4yJVVdp5HxugM5KWgNV6E12DfIqbIWT0Ci2PuML28An/RwvLEf6yQ49Fg7xA/wkw/D45daR6WgAAAABJRU5ErkJggg==')
+}
+</style></head>
+
+<body>
+    <div id="content">
+        <!--zmenseni oblasti pro obsah-->
+        <div id="middle">
+            <img src="./BIS - Bezpečnost informačních systémů_files/Padlock.jpg" align="left" width="120pt" height="120pt">
+            <h1>
+                <a href="http://www.fit.vutbr.cz/study/courses/BIS/">BIS</a> - Bezpečnost informačních
+                systémů</h1>
+            <h3>
+                Informace k projektu</h3>
+            <br>
+            <br>
+            <h3>Zadání projektu</h3>
+<p>
+</p><hr>
+
+<h4>The FITfather</h4>
+<p>
+<i>Průvodce po Itálii.</i> Na první pohled nijak zvláštní kniha. Přesto mě donutila zastavit můj jinak monotónní úklid dědova kabinetu. Ani tak název, jako její umístění vzbudilo moje podezření. Byla přímo uprostřed řady o šifrovacích algoritmech. Znal jsem svého dědu dobře a nikdy by nedopustil, aby byly knihy uloženy takto mimo jeho pečlivý systém. Na to byl přílišný pedant. Jak se tu tedy vzala?
+</p>
+<p>
+Byl to již třetí den, co jsem vyklízel všechny dědovi věci. Odhadoval jsem, že na mě minimálně další dva ještě čekají, tolika věcmi to tu děda za ty roky zaskládal. Rozhodl jsem se, že je proto pravý čas na pauzu. Zaskočil jsem si koupit kafe do fakultní kavárny a vrátil jsem se zpět, abych se pohodlně usadil i s průvodcem na pohovce. Listoval jsem pomalu knihou, až jsem se dostal ke kapitole o Palermu. Vždy mě tam chtěl vzít. <i>Každý člověk by měl znát místo, odkud pocházeli jeho předkové</i>, jak rád říkával.
+</p>
+<p>
+Náhle z knihy něco vypadlo. Byla to fotka, na které jsme s dědou stáli před branou Porta Nuova. Na zadní straně bylo napsáno 21/08/2017. Fotka vypadala úžasně, děda i já jsme se usmívali do objektivu, radostí bez sebe, že jsme v Palermu, kde se narodila jeho babička. Dokonalá vzpomínka na rodinný výlet. Byl tady ale jeden háček - nikdy jsem v Palermu nebyl.
+</p>
+<p>
+Proč by měl děda fotku z okamžiku, který se nikdy nestal? Navíc, tak dobře upravenou, že i já bych na chvíli věřil, že si na to pamatuji. Něco tu nesedělo a já musel zjistit co.
+</p>
+
+<p>
+Něco mě donutilo si přesednout k jeho počítači. Dosud jsem se zabýval pouze knihami a jeho notebook jsem nechal ležet tak, jak ho děda nechal. K mému překvapení byl pouze uspaný a na obrazovce se přede mnou objevil pokyn pro zadání hesla. Protože jsem vůbec netušil, jaké heslo děda používal, zkusmo jsem zadal 2182017.
+</p>
+
+<p>Neprošlo.</p>
+
+<p>21082017 už ale ano.</p>
+
+<p>
+Na ploše byla pouze ikona pro Putty, ale více mě zaujalo nastavené pozadí - zobrazovalo část mapy Itálie, přičemž některá z měst byla označená křížkem. Dohromady jich bylo deset. Palermo bylo navíc ještě zakroužkováno. Chtěl mi snad děda něco říct?
+</p>
+
+<img alt="Map of Italy" src="./BIS - Bezpečnost informačních systémů_files/italy_2019.jpg" width="666px">
+
+<p>
+Nedalo mi to a začal jsem prohledávat lokální disk. Po chvilce hledání jsem našel soubor s názvem porta_nuova.txt. Byl to dopis, pro mě.
+</p>
+
+<pre style="white-space: pre-line;">Milý xlogin00,
+
+je toho tolik, kolik bych ti chtěl říct, ale nyní je již pozdě. Jestli čteš tyto řádky, selhal jsem a možná už nejsem mezi živými. Nemusíš být ale smutný. Pokud je to pravda, opět jsem se sešel s tvou babičkou, mou milovanou Ludmilou a to je vše, co jsem si přál.
+Nyní ale čti pozorně, to co ti prozradím je velmi důležité a bohužel i nebezpečné.
+Několik let jsem pracoval na této univerzitě v utajení, abych překazil plány mafii, která tu získala zázemí pro prodej zero day útoků na černém trhu.
+Ve chvíli, kdy ti píšu tuto zprávu, se mi podařilo konečně nasbírat dost důkazů, které jim jednou pro vždy překazí všechny plány. Jestli vše půjde dobře, za týden bude mít vše v rukou policie a já s tebou konečně pojedu na slibovaný výlet do Itálie.
+Pokud na mě přijdou, zabijí mě, aby se dostali k důkazům. Zatím ale netuší, že jsem jim pravidelně útočil na síť a všechny důkazy v ní pečlivě ukryl. Vím, že po tobě chci víc, než mám právo žádat, ale prosím tě, najdi je a předej policii. Celé roky, aniž bys to věděl, jsem tě připravoval na tento moment a věřím, že se ti podaří odhalit i mé nejzákeřnější skrýše. Zastav ty padouchy dřív, než se celá fakulta změní v hřiště jejich proradné organizace.
+Buď však opatrný a nikomu nevěř. Fakulta je plná zlých lidí, kteří po tobě půjdou, jakmile se dozví, že chceš dokončit moji práci. A dávej si pozor na kmotra. Jsem si jist, že brzy pochopíš, kdo jím je.
+
+Tvůj děda Alfons
+</pre>
+
+<p>
+V hlavě mi vířily miliony myšlenek. Měl jsem tolik otázek a tak málo odpovědí.<br>
+Ale jedno bylo jasné. Můj děda mi dal svůj poslední úkol a já udělám vše proto, abych ho splnil a dostal za mříže ty grázly, co se opovážili ublížit mé rodině.
+</p>
+
+<p>
+Zelený kurzor líně blikal na černém pozadí terminálu a já v tu chvíli přesně věděl, co je potřeba udělat...
+</p>
+<hr>
+
+<h4>Verze pro suchary</h4>
+<p>
+Na mail vám přišel (nebo v několika hodinách přijde) privátní klíč, kterým se připojíte pomocí SSH na server BIS na uvedený port. Pokud by Váš ssh klient odmítal doručený klíč, tak použijte pro přístup server Merlin.
+</p>
+<p>
+Ve vyhrazeném čase získejte co nejvíc tajemství (jsou to řetězce, které vždy obsahují slovo "tajemství") ukrytých na privátních serverech ve vnitřní síti. Získaná tajemství odevzdejte v textovém souboru secrets.txt. Vypracujte krátkou dokumentaci, která bude obsahovat zmapování/schéma vnitřní sítě (servery, služby, zranitelnosti) s postupem získání jednotlivých tajemství (zmapování se týká pouze serverů, ne klientských stanic). Do WISu se odevzdává archiv xlogin00.tar.gz, který obsahuje dokumentaci ve formátu PDF doc.pdf a uvedený soubor secrets.txt.
+</p>
+<p>
+Pravidla:
+</p><ul>
+     <li>Je zakázáno mazat jakékoliv soubory z kompromitovaných serverů (kromě těch, které na server sami nahrajete)</li>
+     <li><b>Uklízejte po sobě</b> - pokud na kompromitovaný server nahrajete jakékoliv skripty, exploity, nástroje, po dokončení práce je zase smažte</li>
+     <li>Nesabotujte práci ostatním spolužákům</li>
+     <li>Neprovádět útoky typu Denial of Service ani bruteforce útoky (zkoušení pár pravděpodobných hesel je OK, ale není cílem lámat hesla hrubou silou)</li>
+     <li>Nepoužívat nástroje Nessus a Metasploit</li>
+     <li>Nenapovídejte spolužákům</li>
+     <li>Snažte se nic nerozbít - víme, že to zvládnete, ale nám tím přiděláte práci a spolužákům třeba znemožníte získat body</li>
+</ul>
+<p></p>
+<hr>
+
+<p>
+Jakékoliv otázky směřujte na <a href="mailto:iperesini@fit.vutbr.cz">iperesini@fit.vutbr.cz</a>, na stejnou adresu napište, pokud omylem něco rozbijete.
+</p>
+
+<p>
+Datum odevzdání: 15.12.2021 22:59:59 ZULU (http://www.timezoneconverter.com)<br>
+</p><div style="color: red">Datum ukončení se <b>prodlužuje</b> a bylo stanoveno na: <b>26.12.2021 22:59:59</b></div>
+Do odevzdání zůstává:
+	<script language="JavaScript">
+	    TargetDate = "12/26/2021 11:59 PM";
+	    BackColor = "white";
+	    ForeColor = "red";
+	    CountActive = true;
+	    CountStepper = -1;
+	    LeadingZero = true;
+	    DisplayFormat = "%%D%% dní, %%H%% hodin, %%M%% minut a %%S%% sekund.";
+	    FinishMessage = "Game over!";
+	</script>
+	<script language="JavaScript" src="./BIS - Bezpečnost informačních systémů_files/countdown.js.stažený soubor"></script><span id="cntdwn" style="background-color:white; color:red">Game over!</span>
+<p></p>
+
+<p></p>
+<hr>
+<p>
+    <b>POZOR! Projekt řešte samostatně, jakékoliv opisování povede k disciplinární komisi a k hodnocení 0b. I nekompletní řešení se hodnotí kladně. </b>
+</p>
+
+        </div>
+    </div>
+
+
+</body></html>

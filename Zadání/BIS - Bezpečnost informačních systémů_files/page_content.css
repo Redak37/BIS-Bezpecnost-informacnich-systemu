@@ -1,0 +1,30 @@
+/*specific page styles */
+
+#head h1 {
+     margin: 0;
+     font-size: 250%;
+     color: #008B8B;
+}
+
+#head h3 {
+     margin: 0;
+     font-size: 150%;
+     color: #008B8B;
+}
+#head h4 {
+     margin: 0;
+     font-size: 120%;
+     color: #008B8B;
+}
+
+.panel_captions {
+     font-weight: bold;
+     color: #008B8B;
+     /*background: #e7e7e7;*/
+}
+
+.section_captions {
+     font-weight: bold;
+     color: #008B8B;
+     /*background: #e7e7e7;*/
+}

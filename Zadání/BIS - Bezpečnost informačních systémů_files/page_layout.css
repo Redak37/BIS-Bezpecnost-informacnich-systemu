@@ -1,0 +1,150 @@
+/* page layout*/
+body {
+     padding: 10px;
+     font: 80%/170% verdana, sans-serif;
+     text-align: center
+}
+#content{
+    width:  800px;
+    margin: 0 100px;
+    text-align: left;
+}
+
+#main {
+     min-width: 875px;
+     border-left: 1px solid #ccc;
+     border-right: 1px solid #ccc;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: left;
+}
+#head-null {
+     width: 100%;
+     padding: 0;
+     border: 0;     
+}
+#head {
+     padding: 10px;
+     border-bottom: 1px solid #c0c0c0;
+     border-top: 1px solid #c0c0c0;
+     background: #f5f5f5;
+     text-align: center;
+}
+#right-null {
+     width: 150px;
+     min-height: 640px;
+     /*height: 420px;*/
+     float: right;
+     padding: 0;
+     border: 0;     
+}
+#right {
+     padding: 5px;
+}
+#left-null {
+     width: 150px;
+     min-height: 640px;
+     /*height: 420px;*/
+     float: left;
+     padding: 0;
+     border: 0;     
+}
+#left {
+     padding: 5px;
+}
+
+#middle {
+     margin: 0 0px;
+     padding: 10px;
+     min-height: 640px;
+     /*height: 600px;  tohle pak resit u kazde konkretni stranky - kvuli blbymu IE :-( */
+     border-left: 1px solid #c0c0c0;
+     /*border-right: 1px solid #c0c0c0; */
+     text-align: justify; 
+}
+
+#footer-right-null {
+     width: 160px;
+     float: right;
+     padding: 0;
+     border: 0;     
+}
+#footer-right {
+     padding: 5px;
+     border-top: 1px solid #ccc;
+     border-bottom: 1px solid #c0c0c0;
+     text-align: center;
+}*/
+
+#footer-null {
+     clear: both;
+     width: 100%;
+     padding: 0;
+     border: 0;     
+}
+
+#footer {
+     padding: 2px;
+     border-top: 1px solid #ccc;
+     border-bottom: 1px solid #c0c0c0;
+     background: #f5f5f5;
+}
+
+.noscreen { 
+     display: none
+}
+
+ul.menu  {margin:0; margin-left:0px; padding:0}
+ul.menu li {margin:0; padding:0; list-style:none}
+ul.menu li.odrazka, ol li.odrazka {margin-bottom:10px; border-bottom: 1px solid #c0c0c0;}
+ul.menu li a {padding-left:15px; background:url("../img/li-link.gif") top left no-repeat; width:100%; color:#000000;}
+ul.menu li a:visited {padding-left:15px; background:url("../img/li-link.gif") top left no-repeat; width:100%; color:#000000;}
+ul.menu li a:hover {background:url("../img/li-hover.gif") top left no-repeat; color:#008B8B}
+ul.menu li#aktivni a, ul.menu li a:active {background:url("../img/li-active.gif") top left no-repeat; text-decoration:none; color:#008B8B}
+
+ul.menu_files  {margin:0; margin-left:0px; padding:0}
+ul.menu_files li {margin:0; padding-left:15px; list-style:none}
+ul.menu_files li.odrazka, ol li.odrazka {margin-bottom:10px; border-bottom: 1px solid #c0c0c0;}
+ul.menu_files li a {padding-left:15px; background:url("../img/li-link.gif") top left no-repeat; width:100%; color:#000000;}
+ul.menu_files li a:visited {padding-left:15px; background:url("../img/li-link.gif") top left no-repeat; width:100%; color:#000000;}
+ul.menu_files li a:hover {background:url("../img/li-hover.gif") top left no-repeat; color:#008B8B}
+ul.menu_files li#aktivni a, ul.menu_files li a:active {background:url("../img/li-active.gif") top left no-repeat; text-decoration:none; color:#008B8B}
+
+ul.menu_list  {margin:0; margin-left:0px; margin-right:15px; padding:0}
+ul.menu_list li {margin:0; padding-left:15px; list-style:none; background:url("../img/li-hover.gif") top left no-repeat; width:100%; color:#000000; border-bottom: 1px dashed #C0C0C0;}
+
+
+ul.submenu_files  {margin:0; margin-left:0px; padding:0}
+ul.submenu_files li {margin:0; padding-left:30px; list-style:none}
+ul.submenu_files li.odrazka, ol li.odrazka {margin-bottom:10px; border-bottom: 1px solid #c0c0c0;}
+ul.submenu_files li a {padding-left:15px; background:url("../img/li-link.gif") top left no-repeat; width:100%; color:#000000;}
+ul.submenu_files li a:visited {padding-left:15px; background:url("../img/li-link.gif") top left no-repeat; width:100%; color:#000000;}
+ul.submenu_files li a:hover {background:url("../img/li-hover.gif") top left no-repeat; color:#008B8B}
+ul.submenu_files li#aktivni a, ul.submenu_files li a:active {background:url("../img/li-active.gif") top left no-repeat; text-decoration:none; color:#008B8B}
+
+/*ul.midli li {list-style:none; margin-left:15px; padding-left:20px; background:url("../img/li-active.gif") top left no-repeat; width:100%; color:#000000;}*/
+
+
+
+a, a:link {text-decoration: none; color:#008B8B}
+a:visited {text-decoration: none; color:#008B8B}
+a:active, a:hover {text-decoration: none; color:#f02D32}
+
+.a1, .a1:link {text-decoration: none; color:white; font:60%/135% verdana, sans-serif } /*pro odkaz s obrazkem - bile pozadi*/
+.a1:visited {text-decoration: none; color:white}
+.a1:active, .a1:hover {text-decoration: none; color:white}
+
+hr {
+  clear: both; border-width:0; border-top:1px solid #6F6F6F; height:1px; margin-top: 10px;
+}
+
+#table_cal   {
+	font: 90%/110% Tahoma, Arial, verdana, sans-serif;
+}
+.tabulka_cal   {
+	font: 90%/100% verdana, sans-serif;
+}
+
+#list-left {float:left; width:350px;}
+#list-center {float:left;}
+#list-right {float:left}
